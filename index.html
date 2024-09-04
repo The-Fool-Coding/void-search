@@ -1,15 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Void Search</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-    <div class="container">
+
+<body >
+    <div class="dock">
+        <div class="dock-cat">
+            <div class="cat">
+                <div class="ear ear--left"></div>
+                <div class="ear ear--right"></div>
+                <div class="face">
+                    <div class="eye eye--left">
+                        <div class="eye-pupil"></div>
+                    </div>
+                    <div class="eye eye--right">
+                        <div class="eye-pupil"></div>
+                    </div>
+                    <div class="muzzle"></div>
+                </div>
+            </div>
+        </div>
         <div class="search-bar">
-            <input type="text" placeholder="Search...">
-            <button type="submit">Search</button>
+            <img src="./img/candle-halloween-rite-svgrepo-com.svg" class="img-prefix"></img>
+            <input type="text" class="search-input" id="search-input" placeholder="Search..." />
+            <button class="search-button" onclick="doSearch()">
+                <img src="./img/cemetery-grave-halloween-svgrepo-com.svg" class="img-prefix"></img>
+            </button>
         </div>
     </div>
+    <script src="app.js" defer></script>
 </body>
+
 </html>
