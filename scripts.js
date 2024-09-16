@@ -11,12 +11,14 @@ const searchButton = document.querySelector("#searchbar > button")
 const lookup = {"/":"/","deepl":"https://deepl.com/","reddit":"https://reddit.com/","maps":"https://maps.google.com/"}
 let engine = "duckduckgo"
 const engineUrls = {
-  deepl: "https://www.deepl.com/translator#-/-/",
-  duckduckgo: "https://duckduckgo.com/?q=",
-  ecosia: "https://www.ecosia.org/search?q=",
   google: "https://www.google.com/search?q=",
-  startpage: "https://www.startpage.com/search?q=",
+  duckduckgo: "https://duckduckgo.com/?q=",
   youtube: "https://www.youtube.com/results?q=",
+  github: "https://github.com/search?q=",
+  stackoverflow: "https://stackoverflow.com/search?q=",
+  ecosia: "https://www.ecosia.org/search?q=",
+  startpage: "https://www.startpage.com/search?q=",
+  deepl: "https://www.deepl.com/translator#-/-/",
 }
 
 const isWebUrl = value => {
@@ -54,7 +56,7 @@ const bookmarks = [
     bookmarks: [
       {
         id: "vuljUCL4UQ9HuZ2J",
-        label: "Alura",
+        label: "alura",
         url: "https://cursos.alura.com.br/dashboard",
       },
       {
