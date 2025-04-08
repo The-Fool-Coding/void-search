@@ -119,17 +119,17 @@ const bookmarks = [
     bookmarks: [
       {
         id: "nD2swQlN96R5TMhv",
-        label: "GPT",
+        label: "gpt",
         url: "https://chatgpt.com/",
       },
       {
         id: "5Gqj19X6fMpsOXvN",
-        label: "Deepseek",
+        label: "deepseek",
         url: "https://chat.deepseek.com/",
       },
       {
         id: "5Gqj19X98MpsOXvN",
-        label: "Claude.AI",
+        label: "claude.ai",
         url: "https://claude.ai/new",
       },
     ],
