@@ -114,6 +114,27 @@ const bookmarks = [
     ],
   },
   {
+    id: "abcd4f3L2hZja0yW7",
+    label: "AI",
+    bookmarks: [
+      {
+        id: "nD2swQlN96R5TMhv",
+        label: "GPT",
+        url: "https://chatgpt.com/",
+      },
+      {
+        id: "5Gqj19X6fMpsOXvN",
+        label: "Deepseek",
+        url: "https://chat.deepseek.com/",
+      },
+      {
+        id: "5Gqj19X98MpsOXvN",
+        label: "Claude.AI",
+        url: "https://claude.ai/new",
+      },
+    ],
+  },
+  {
     id: "mcVg4fL2hZja0yW7",
     label: "misc",
     bookmarks: [
